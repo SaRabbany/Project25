@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, p{
+    margin: 0;
+    padding: 0;
+}
+header::after{
+    display: block;
+    content: '';
+    width: 100%;
+    height: 20px;
+    margin-top: 300px;
+}
+header{
+    overflow: hidden;
+}
+header nav .upper-nav .nav-top{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    background: #003F7F;
+    align-items: center;
+}
+header nav .upper-nav ul
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+header nav .upper-nav ul li,
+header nav .text-bottom-part ul li{
+    list-style: none;
+    padding: 8px 12px;
+}
+header nav .upper-nav ul li a{
+    display: block;
+    color: #fff;
+    padding: 0 8px;
+    border-right: 2px solid #fff;
+    font-size: 14px;
+}
+
+/* lower nav  */
+header nav .lower-nav{
+    background: #fff;
+    padding: 0 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+header nav .lower-nav .img-side{
+    width: 190px;
+    margin-right: 60px;
+}
+header nav .lower-nav .img-side img{
+    width: 100%;
+}
+header nav .lower-nav .txt-side{
+    width: 60%;
+}
+
+header nav .lower-nav .txt-side .text-top-part{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+header nav .lower-nav .txt-side .text-top-part h2{
+    font-size: 22px;
+    font-weight: bold;
+    color: #008080;
+}
+header nav .lower-nav .txt-side .text-top-part .ttplp h2{
+    font-size: 28px;
+    font-weight: 600;
+}
+header nav .lower-nav .txt-side .text-top-part .ttprp h3{
+    color: red;
+    font-size: 21px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+header nav .text-bottom-part ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav .text-bottom-part ul li a{
+    display: block;
+    font-size: 16px;
+    color: #0FA2D3;
+}
+
+header .theSlider .slideImages{
+    position: relative;
+}
+header .theSlider .slideImages img{
+    position: absolute;
+    opacity: 0;
+    transition: 2s;
+}
+
+.img-active{
+    opacity: 1 !important;
+}
+header .topSecContents{
+    right: 0px;
+    position: absolute;
+    padding: 20px 50px;
+    z-index: 20;
+
+}
+header .topSecContents .blackBoxContents{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    z-index: 20;
+    margin-bottom: 12px;
+    padding: 6px 16px;
+}
+
+header .topSecContents .blackBoxContents .psound{
+    z-index: 20;
+    padding: 6px;
+;
+}
+header .topSecContents .blackBoxContents .psound h4{
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+header .topSecContents .blackBoxContents .psound a{
+    color: #fff;
+    text-decoration: underline;
+}
+header .topSecContents .blackBoxContents .psound h4 span{
+    color: #FF8C02;
+}
+
+/* SECOND SECTION */
+
+section.theflexSec1{
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* first comlumn */
+section.theflexSec1 .theBox {
+    width: 22%;
+}
+section.theflexSec1 .titleBox{
+    width: 100%;
+    padding: 3px 6px;
+    background: linear-gradient(to left, #E4ECF1, #808080);
+    border-radius: 4px;
+    padding: 4px 8px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 0.2px solid rgb(99, 90, 90);
+}
+section.theflexSec1 .theBox .titleBox h4{
+    font-weight: 600;
+}
+section.theflexSec1 .theBox .pContents .pdesc{
+    margin-bottom: 25px;
+}
+section.theflexSec1 .theBox .blueTitleBox{
+    width: 100%;
+    padding: 4px 8px;
+    border-radius: 4px;
+    background: linear-gradient(to right, #59FFFF, #FDFFFF);
+    border: 0.2px solid rgb(99, 90, 90);
+}
+section.theflexSec1 .theBox .borderImage{
+    width: 95%;
+    margin: 30px auto;
+}
+section.theflexSec1 .theBox .borderImage img{
+    width: 100%;
+    border: 5px solid #fff;
+    box-shadow: 2px 2px 4px rgb(94, 94, 94),
+                -2px -2px 4px rgb(94, 94, 94);
+
+}
+section.theflexSec1 .theBox .embededVideo{
+    margin: 15px auto;
+}
+section.theflexSec1 .theBox .boldSent b{
+    font-size: 13px;
+    color: #528080;
+    padding: 25px 0;
+    display: block;
+}
+section.theflexSec1 p a{
+    color: #0FA2D3;
+    font-size: 15px;
+}
+
+/* second column */
+
+section.theflexSec1 .theBoxBigger{
+    width: 40%;
+}
+section.theflexSec1 .theBoxBigger .theImageAndTxtBox{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+section.theflexSec1 .theBoxBigger .theImageAndTxtBoxes .theTxtBox{
+    width: 70%;
+}
+section.theflexSec1 .theBoxBigger .theImageAndTxtBoxes .headline h3{
+    font-size: 16px;
+    font-weight: 600;
+}
+section.theflexSec1 .theBoxBigger .theImageAndTxtBoxes .headline::after{
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #000;
+    display: block;
+    margin: 8px 0;
+}
+section.theflexSec1 .theBoxBigger .theImageAndTxtBoxes .theImageBox{
+    width: 150px;
+    margin-right: 15px;
+}
+section.theflexSec1 .theBoxBigger .theImageAndTxtBoxes .theImageBox img{
+    width: 100%;
+}
+
+section.theflexSec1 .theBoxBigger .theImageAndTxtBoxes .theTxtBox p{
+    margin: 4px 0;
+}
+
+section.theflexSec1 .theBoxBigger .campuses .thecampusesheadline b{
+    margin: 40px 0;
+    display: block;
+}
+section.theflexSec1 .theBoxBigger .campuses ul li{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+section.theflexSec1 .theBoxBigger .campuses ul li span{
+    color: blue;
+    font-weight: bolder;
+    margin-right: 5px;
+    font-size: 18px;
+}
+/* third column */
+section.theflexSec1 .theBoxMedium{
+    width: 26%;
+}
+section.theflexSec1 .theBoxMedium .grayBoxContents{
+    width: 100%;
+    background: #F7F7F7;
+    padding: 8px 12px;
+}
+
+section.theflexSec1 .theBoxMedium .grayBoxContents .gryboxItem .bluepraghead{
+    color: #222FA5;
+    font-size: 18px;
+    margin: 40px 0;
+    font-weight: 600;
+}
+section.theflexSec1 .theBoxMedium .grayBoxContents .gryboxItem .flexContents{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+section.theflexSec1 .theBoxMedium .grayBoxContents .gryboxItem .flexContents .flexItem{
+    margin-bottom: 5px;
+}
+section.theflexSec1 .theBoxMedium .grayBoxContents .gryboxItem .flexContents p{
+    font-weight: 600;
+}
+section.theflexSec1 .theBoxMedium .grayBoxContents .gryboxItem .flexContents a{
+    color: #575AFC;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+/* end of the column 3 */
+section.theflexSec1 .theBtnOrImg img{
+    border: 6px solid #fff;
+    margin: 15px;
+    box-shadow: 2px 2px 4px rgb(75, 75, 75);
+}
+section.theflexSec1 .column3FinalPart .topboldT b{
+    font-size: 10px;
+    color: #8C8C8C;
+    margin-bottom: 8px;
+    display: block;
+}
+
+section.theflexSec1 .column3FinalPart .fiveLinks a{
+    margin-bottom: 20px;
+    display: block;
+    font-size: 10px;
+    color: #0FA2D3;
+    font-weight: bold;
+}
+/* footer */
+
+footer{
+    width: 100%;
+    margin-top: 200px;
+}
+footer .flexFooterContents{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 25px 10px;
+    background: #005FBF;
+    width: 100%;
+    align-items: center;
+}
+footer .flexFooterContents .linksFooter{
+    width: 75%;
+}
+footer .flexFooterContents .linksFooter ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 15px;
+}
+footer .flexFooterContents .linksFooter ul li{
+    list-style: none;
+    margin-right: 5px;
+}
+footer .flexFooterContents .linksFooter ul li a{
+    font-size: 16px;
+    font-weight: 600;
+    color: #E49F1C;
+}
+footer .flexFooterContents .contactNumberFooter h4{
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+/* all responsive here */
+
+
+@media screen and (max-width: 1024px){
+    section.theflexSec1 .theBoxMedium{
+        margin-top: 60px;
+        width: 60%;
+    }
+    section.theflexSec1 .theBox{
+        width: 30%;
+    }
+    section.theflexSec1 .theBoxBigger{
+        width: 50%;
+    }
+    
+}
+
+@media screen and (max-width: 767px){
+    section.theflexSec1 .theBoxMedium{
+        margin-top: 60px;
+        width: 90%;
+    }
+    section.theflexSec1 .theBox{
+        width: 90%;
+    }
+    section.theflexSec1 .theBoxBigger{
+        width: 90%;
+    }
+    footer .flexFooterContents .linksFooter{
+        width: 90%;
+    }
+}
